@@ -25,7 +25,7 @@ public class TomcatHandler extends ChannelInboundHandlerAdapter {
 
     static {
 
-        CustomConfig.load("web.properties");
+        CustomConfig.load("netty/simpleTomcat/web.properties");
 
         for (String key : CustomConfig.getKeys()) {
             if (key.startsWith("servlet")) {

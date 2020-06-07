@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  * @description
  */
 public class FileLockExample {
-    final static String filepath = FileChannelExample.class.getResource("/").getPath() + "FileLockExample.txt";
+    final static String filepath = FileChannelExample.class.getResource("/").getPath() + "nio/FileLockExample.txt";
     private static Random rand = new Random();
     public static void main(String[] args) {
         if (args.length < 1) {

@@ -10,7 +10,7 @@ import java.nio.channels.FileChannel;
  * @description
  */
 public class FileChannelExample {
-    private static String fileStr = FileChannelExample.class.getResource("/").getPath() + "FileChannelExample.txt";
+    private static String fileStr = FileChannelExample.class.getResource("/").getPath() + "nio/FileChannelExample.txt";
     public static void main(String[] args) throws IOException {
         testChannelCreate();
         System.out.println("--------------");

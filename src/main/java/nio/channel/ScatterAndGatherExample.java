@@ -10,7 +10,7 @@ import java.nio.channels.FileChannel;
  * @description
  */
 public class ScatterAndGatherExample {
-    private static String fileStr = FileChannelExample.class.getResource("/").getPath() + "ScatterAndGatherExample.txt";
+    private static String fileStr = FileChannelExample.class.getResource("/").getPath() + "nio/ScatterAndGatherExample.txt";
 
     public static void main(String[] args) throws UnsupportedEncodingException {
         ByteBuffer buffer1 = ByteBuffer.allocate(5);
