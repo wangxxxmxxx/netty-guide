@@ -1,4 +1,4 @@
-package netty.simpleTomcat.config;
+package netty.tomcat.config;
 
 import java.util.*;
 

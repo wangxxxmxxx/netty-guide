@@ -1,4 +1,4 @@
-package netty.simpleTomcat.http;
+package netty.tomcat.http;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.http.HttpRequest;

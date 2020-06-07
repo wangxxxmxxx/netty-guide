@@ -1,12 +1,12 @@
-package netty.simpleTomcat.server;
+package netty.tomcat.server;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.handler.codec.http.HttpRequest;
-import netty.simpleTomcat.config.CustomConfig;
-import netty.simpleTomcat.http.Request;
-import netty.simpleTomcat.http.Response;
-import netty.simpleTomcat.http.Servlet;
+import netty.tomcat.config.CustomConfig;
+import netty.tomcat.http.Request;
+import netty.tomcat.http.Response;
+import netty.tomcat.http.Servlet;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,7 +25,7 @@ public class TomcatHandler extends ChannelInboundHandlerAdapter {
 
     static {
 
-        CustomConfig.load("netty/simpleTomcat/web.properties");
+        CustomConfig.load("netty/tomcat/web.properties");
 
         for (String key : CustomConfig.getKeys()) {
             if (key.startsWith("servlet")) {

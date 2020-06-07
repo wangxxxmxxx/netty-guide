@@ -1,8 +1,8 @@
-package netty.simpleTomcat.servlets;
+package netty.tomcat.servlets;
 
-import netty.simpleTomcat.http.Request;
-import netty.simpleTomcat.http.Response;
-import netty.simpleTomcat.http.Servlet;
+import netty.tomcat.http.Request;
+import netty.tomcat.http.Response;
+import netty.tomcat.http.Servlet;
 
 /**
  * @author wangxueming

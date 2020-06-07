@@ -1,4 +1,4 @@
-package netty.simpleTomcat.http;
+package netty.tomcat.http;
 
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;

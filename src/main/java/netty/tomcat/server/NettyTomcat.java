@@ -1,4 +1,4 @@
-package netty.simpleTomcat.server;
+package netty.tomcat.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
